@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyCareer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_activity_icon_desc">Icones menu</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <string name="Home">Accueil</string>
+     <string name="My_Cursus">Mon Cursus</string>
+     <string name="My_Skils">Mes Compétences</string>
+     <string name="My_job">Mon Emploi</string>
+     <string name="My_journey">Mon Parcours</string>
+     <string name="My_dev">Mon développement</string>
+     <string name="My_Market">Mon Marché</string>
+    <string name="My_Mobility">Ma Mobilité</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Accueil</item>
+        <item>Mon Cursus</item>
+        <item>Mes Compétences</item>
+        <item>Mon Emploi</item>
+        <item>Mon Parcours</item>
+        <item>Mon développement</item>
+        <item>Mon Marché</item>
+        <item>Ma Mobilité</item>        
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>
