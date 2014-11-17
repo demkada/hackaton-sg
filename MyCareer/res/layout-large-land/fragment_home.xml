@@ -12,6 +12,6 @@
         android:verticalSpacing="15dp"
         android:horizontalSpacing="15dp"
         android:stretchMode="columnWidth"
-        android:numColumns="2" 
+        android:numColumns="4" 
         />
 </FrameLayout>
