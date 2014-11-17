@@ -3,76 +3,64 @@
     android:id="@+id/skills_pages_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
- 
-    
-<LinearLayout 
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
-    android:paddingTop="10dp"
-    android:orientation="vertical" >
-    
-    
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Activité à compétences IT" />
- 
-    
-<!-- RadioGroup is used to inter-link Separate Radio Buttons, to restrict a single selection of Radio Button from all -->    
-    <RadioGroup
-        android:id="@+id/operatingSystem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical" >
- 
-        
-<!-- Radio Button with Text:Android & default check value true,which selects it on page load automatically -->        
-        <RadioButton
-            android:id="@+id/radio_strategies_it"
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="011 – Analyse et élaboration de stratégie IT"
-            android:checked="true" />
-        <!-- Radio Button with Text:i-OS  -->
-        <RadioButton
-            android:id="@+id/radio_ios"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="i-OS" />
-<!-- Radio Button with Text:Windows  -->        
-        <RadioButton
-            android:id="@+id/radio_windows"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Windows" />
-        
-        
-    </RadioGroup>
-    
-    <!-- This Radio Button is out-side Radio Group so they can be selected irrespective of above 3 radio buttons -->
-    <RadioButton
-        android:id="@+id/radio_ubuntu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ubuntu" />
- 
-    
-<!-- This Radio Button is out-side Radio Group so they can be selected irrespective of top 3 radio buttons -->    
-    <RadioButton
-        android:id="@+id/radio_redhat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Redhat" />
- 
-    
-    
-   <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Submit"
-        android:onClick="submit"/>
-  
-</LinearLayout>
+            android:text="Activité à compétences IT" />
+
+        <!-- RadioGroup is used to inter-link Separate Radio Buttons, to restrict a single selection of Radio Button from all -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="011 – Analyse et élaboration de stratégie IT" />
+
+            <RadioGroup
+                android:id="@+id/operatingSystem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio_basique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Basique" />
+
+                <RadioButton
+                    android:id="@+id/radio_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Initiation" />
+
+                <RadioButton
+                    android:id="@+id/radio_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maître" />
+
+                <RadioButton
+                    android:id="@+id/radio_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expert" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
 </ScrollView>
