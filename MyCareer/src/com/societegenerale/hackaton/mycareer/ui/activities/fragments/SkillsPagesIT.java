@@ -8,13 +8,13 @@ import android.view.ViewGroup;
 
 import com.societegenerale.hackaton.mycareer.R;
 
-public class SkillsPages extends Fragment {
+public class SkillsPagesIT extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
         ViewGroup rootView = (ViewGroup) inflater.inflate(
-                R.layout.fragment_skills_pages, container, false);
+                R.layout.fragment_skills_pages_it, container, false);
 
         return rootView;
     }
