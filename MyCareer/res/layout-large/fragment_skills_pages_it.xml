@@ -60,7 +60,271 @@
                     android:layout_height="wrap_content"
                     android:text="Expert" />
             </RadioGroup>
+
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="014 – Analyse et élaboration d'architecture IT" />
+
+            <RadioGroup
+                android:id="@+id/operatingSystem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio_basique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Basique" />
+
+                <RadioButton
+                    android:id="@+id/radio_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Initiation" />
+
+                <RadioButton
+                    android:id="@+id/radio_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maître" />
+
+                <RadioButton
+                    android:id="@+id/radio_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expert" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="017 - Analyse et élaboration de base de données" />
+
+            <RadioGroup
+                android:id="@+id/operatingSystem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio_basique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Basique" />
+
+                <RadioButton
+                    android:id="@+id/radio_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Initiation" />
+
+                <RadioButton
+                    android:id="@+id/radio_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maître" />
+
+                <RadioButton
+                    android:id="@+id/radio_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expert" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="020 - Analyse et optimisation de processus Métier" />
+
+            <RadioGroup
+                android:id="@+id/operatingSystem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio_basique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Basique" />
+
+                <RadioButton
+                    android:id="@+id/radio_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Initiation" />
+
+                <RadioButton
+                    android:id="@+id/radio_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maître" />
+
+                <RadioButton
+                    android:id="@+id/radio_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expert"  />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="024 - Rédaction de spécifications techniques" />
+
+            <RadioGroup
+                android:id="@+id/operatingSystem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio_basique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Basique" />
+
+                <RadioButton
+                    android:id="@+id/radio_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Initiation" />
+
+                <RadioButton
+                    android:id="@+id/radio_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maître" />
+
+                <RadioButton
+                    android:id="@+id/radio_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expert" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="030 - Programmation et codage d'application IT" />
+
+            <RadioGroup
+                android:id="@+id/operatingSystem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio_basique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Basique" />
+
+                <RadioButton
+                    android:id="@+id/radio_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Initiation" />
+
+                <RadioButton
+                    android:id="@+id/radio_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maître" />
+
+                <RadioButton
+                    android:id="@+id/radio_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expert" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="036 - Elaboration d'infrastructure IT" />
+
+            <RadioGroup
+                android:id="@+id/operatingSystem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio_basique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Basique" />
+
+                <RadioButton
+                    android:id="@+id/radio_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Initiation" />
+
+                <RadioButton
+                    android:id="@+id/radio_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maître" />
+
+                <RadioButton
+                    android:id="@+id/radio_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expert" />
+            </RadioGroup>
+        </LinearLayout>
+
     </LinearLayout>
+
+
 
 </ScrollView>
