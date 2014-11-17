@@ -1,11 +1,5 @@
 package com.societegenerale.hackaton.mycareer.ui.activities.fragments;
 
-import android.app.Fragment;
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
 import com.societegenerale.hackaton.mycareer.R;
 
 public class PagesFragment extends Fragment {

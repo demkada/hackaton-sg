@@ -1,6 +1,5 @@
 package com.societegenerale.hackaton.mycareer.ui.widget;
 
-import android.view.View;
 import android.support.v4.view.ViewPager;
 
 public class ZoomOutPageTransformer implements ViewPager.PageTransformer {

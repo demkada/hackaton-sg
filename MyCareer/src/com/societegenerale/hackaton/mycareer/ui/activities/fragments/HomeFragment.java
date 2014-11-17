@@ -1,19 +1,5 @@
 package com.societegenerale.hackaton.mycareer.ui.activities.fragments;
 
-import android.app.Activity;
-import android.app.ActivityOptions;
-import android.app.Fragment;
-import android.app.FragmentTransaction;
-import android.content.Intent;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.GridView;
-
 import com.societegenerale.hackaton.mycareer.R;
 import com.societegenerale.hackaton.mycareer.ui.activities.SkillsFragmentActivity;
 import com.societegenerale.hackaton.mycareer.ui.adapter.CustomGridViewAdapter;
