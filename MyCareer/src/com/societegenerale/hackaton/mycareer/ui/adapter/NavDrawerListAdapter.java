@@ -2,6 +2,7 @@ package com.societegenerale.hackaton.mycareer.ui.adapter;
 
 import java.util.ArrayList;
 
+import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;

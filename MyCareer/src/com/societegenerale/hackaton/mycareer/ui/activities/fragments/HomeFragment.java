@@ -1,6 +1,7 @@
 package com.societegenerale.hackaton.mycareer.ui.activities.fragments;
 
 import android.app.Activity;
+import android.app.ActivityOptions;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Intent;

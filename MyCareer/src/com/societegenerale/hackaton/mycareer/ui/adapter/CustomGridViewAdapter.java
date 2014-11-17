@@ -20,13 +20,13 @@ public class CustomGridViewAdapter extends BaseAdapter {
 	public CustomGridViewAdapter(Context context) {
 		inflater = LayoutInflater.from(context);
 
-		items.add(new Item("Mon Cursus",      R.drawable.cv));
-		items.add(new Item("Mes Compï¿½tences",      R.drawable.skills));
-		items.add(new Item("Mon Emploi",     R.drawable.job));
-		items.add(new Item("Mon Parcours",      R.drawable.rooute));
-		items.add(new Item("Mon dï¿½veloppement", R.drawable.dev));
-		items.add(new Item("Mon Marchï¿½",   R.drawable.market));
-		items.add(new Item("Ma Mobilitï¿½",       R.drawable.mobility));		
+		items.add(new Item("Mon Cursus",      R.drawable.cursus));
+		items.add(new Item("Mes Compétences",      R.drawable.skills));
+		items.add(new Item("Mon Emploi",     R.drawable.my_job));
+		items.add(new Item("Mon Parcours",      R.drawable.parcours_small));
+		items.add(new Item("Mon développement", R.drawable.career_dev));
+		items.add(new Item("Mon Marché",   R.drawable.jobs_offer));
+		items.add(new Item("Ma Mobilité",       R.drawable.mob));		
 	}
 
 	@Override
