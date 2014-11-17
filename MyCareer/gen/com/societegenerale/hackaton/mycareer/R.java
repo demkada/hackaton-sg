@@ -122,7 +122,7 @@ public final class R {
         public static final int tab_unselected_sg=0x7f020045;
     }
     public static final class id {
-        public static final int action_settings=0x7f0b000e;
+        public static final int action_settings=0x7f0b0014;
         public static final int counter=0x7f0b0007;
         public static final int drawer_layout=0x7f0b0000;
         public static final int frame_container=0x7f0b0001;
@@ -131,10 +131,16 @@ public final class R {
         public static final int image_view=0x7f0b0003;
         public static final int left_drawer=0x7f0b0002;
         public static final int list_slidermenu=0x7f0b0004;
-        public static final int picture=0x7f0b000c;
+        public static final int operatingSystem=0x7f0b000c;
+        public static final int picture=0x7f0b0012;
+        public static final int radio_ios=0x7f0b000e;
+        public static final int radio_redhat=0x7f0b0011;
+        public static final int radio_strategies_it=0x7f0b000d;
+        public static final int radio_ubuntu=0x7f0b0010;
+        public static final int radio_windows=0x7f0b000f;
         public static final int skills_pager=0x7f0b000a;
         public static final int skills_pages_content=0x7f0b000b;
-        public static final int text=0x7f0b000d;
+        public static final int text=0x7f0b0013;
         public static final int title=0x7f0b0006;
         public static final int txtLabel=0x7f0b0008;
     }
@@ -146,7 +152,7 @@ public final class R {
         public static final int fragment_pages=0x7f030004;
         public static final int fragment_photos=0x7f030005;
         public static final int fragment_skills=0x7f030006;
-        public static final int fragment_skills_pages=0x7f030007;
+        public static final int fragment_skills_pages_it=0x7f030007;
         public static final int fragment_whats_hot=0x7f030008;
         public static final int row_grid=0x7f030009;
     }
