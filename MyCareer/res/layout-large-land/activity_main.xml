@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:background="@drawable/banner_hr"
+            android:background="@drawable/sg_careere_coach"
             android:contentDescription="@string/welcome_activity_icon_desc" />
 
         <!-- Listview to display slider menu -->
