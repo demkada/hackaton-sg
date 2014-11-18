@@ -20,11 +20,13 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 
 import com.societegenerale.hackaton.mycareer.R;
-import com.societegenerale.hackaton.mycareer.ui.activities.fragments.CommunityFragment;
+import com.societegenerale.hackaton.mycareer.ui.activities.fragments.CoachFragment;
+import com.societegenerale.hackaton.mycareer.ui.activities.fragments.CursusFragment;
 import com.societegenerale.hackaton.mycareer.ui.activities.fragments.HomeFragment;
-import com.societegenerale.hackaton.mycareer.ui.activities.fragments.PagesFragment;
-import com.societegenerale.hackaton.mycareer.ui.activities.fragments.PhotosFragment;
-import com.societegenerale.hackaton.mycareer.ui.activities.fragments.WhatsHotFragment;
+import com.societegenerale.hackaton.mycareer.ui.activities.fragments.MarketFragment;
+import com.societegenerale.hackaton.mycareer.ui.activities.fragments.MobilityFragment;
+import com.societegenerale.hackaton.mycareer.ui.activities.fragments.ParcoursFragment;
+import com.societegenerale.hackaton.mycareer.ui.activities.fragments.ProlfilFragment;
 import com.societegenerale.hackaton.mycareer.ui.adapter.NavDrawerListAdapter;
 import com.societegenerale.hackaton.mycareer.ui.model.NavDrawerItem;
 
@@ -71,8 +73,25 @@ public class MainActivity extends Activity {
 		mDrawerList = (ListView) findViewById(R.id.list_slidermenu);
 
 		navDrawerItems = new ArrayList<NavDrawerItem>();
-
+		
+		
 		// adding nav drawer items to array
+				// Home
+				navDrawerItems.add(new NavDrawerItem(navMenuTitles[0]));
+				// Find People
+				navDrawerItems.add(new NavDrawerItem(navMenuTitles[1]));
+				// Photos
+				navDrawerItems.add(new NavDrawerItem(navMenuTitles[2]));
+				// Communities, Will add a counter here
+				navDrawerItems.add(new NavDrawerItem(navMenuTitles[3]));
+				// Pages
+				navDrawerItems.add(new NavDrawerItem(navMenuTitles[4]));
+				// What's hot, We  will add a counter here
+				navDrawerItems.add(new NavDrawerItem(navMenuTitles[5]));
+				navDrawerItems.add(new NavDrawerItem(navMenuTitles[6]));
+
+
+		/*// adding nav drawer items to array
 		// Home
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[0], navMenuIcons.getResourceId(0, -1)));
 		// Find People
@@ -87,7 +106,7 @@ public class MainActivity extends Activity {
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[5], navMenuIcons.getResourceId(5, -1)));
 		
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[6], navMenuIcons.getResourceId(6, -1)));
-
+*/
 
 		// Recycle the typed array
 		navMenuIcons.recycle();
@@ -191,19 +210,19 @@ public class MainActivity extends Activity {
             fragment = new HomeFragment();
             break;
         case 1:
-        	fragment = new PhotosFragment();
+        	fragment = new ProlfilFragment();
             break;
         case 2:
-            SkillsAct = new SkillsFragmentActivity();
+        	fragment = new ParcoursFragment();
             break;
         case 3:
-            fragment = new CommunityFragment();
+            fragment = new MarketFragment();
             break;
         case 4:
-            fragment = new PagesFragment();
+            fragment = new MobilityFragment();
             break;
         case 5:
-            fragment = new WhatsHotFragment();
+            fragment = new CoachFragment();
             break;
  
         default:

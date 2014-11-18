@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="29dp"
+                android:text="Expert fonctionnel"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:id="@+id/table1"
+                android:layout_width="850dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="false"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="100dp" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignStart="@+id/textView2"
+                    android:layout_toStartOf="@+id/txtLabel"
+                    android:text="MISSIONS"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="- Conseiller lors de la conception des projets en cas de besoins très spécifiques."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/textView9"
+                    android:layout_alignStart="@+id/textView9"
+                    android:layout_below="@+id/textView9"
+                    android:text="- Apporter une vision transversale et stratégique dans les domaines d’expertise, notamment en effectuant une veille de haut niveau."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:layout_marginTop="85dp"
+                    android:layout_toStartOf="@+id/txtLabel"
+                    android:text="ACTIVITES"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="- Conduire des études et des projets."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="- Identifier les besoins et proposer les solutions en ligne avec la stratégie de transformation."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="- Mobiliser les projets internes sur la base de spécifications fonctionnelles élaborer a partir de connaissances avancées des marches, de la concurrence, des technologies."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="- Formaliser les processus et traitements dédiés a être en œuvre au sein des projets."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="- Organiser et piloter les travaux a partir de planning exigeants permettant une incrémentation rapide de la capacité de la banque pour des positionnements concurrentiels vitaux."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="- Identifier les tendances du marche, voir contribuer a les initialiser."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table2"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="false"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="100dp" >
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/textView4"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_toEndOf="@+id/txtLabel"
+                    android:text="AUTONOMIE"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#fd000001"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="- Valide les choix de solutions avec les équipes d’architecte."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="- Est force de proposition sur des optimisations budgétaires de son domaine."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView5"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_below="@+id/textView4"
+                    android:layout_marginTop="20dp"
+                    android:text="CONTEXTE PARTICULIER"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000001"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="Vision pointue et réfèrent sur un domaine fonctionnel en France et a l’international"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView6"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_below="@+id/textView"
+                    android:layout_marginTop="20dp"
+                    android:text="CONTACTS INTERNES"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000001"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="-  Travaille en étroite collaboration avec les architectes techniques et fonctionnels, les experts applicatifs et les chefs de projet SI"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="- Utilisateurs et sponsor métier"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="- MOA"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView7"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_below="@+id/textView2"
+                    android:layout_marginTop="20dp"
+                    android:text="CONTACTS EXTERNES"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000001"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="- Fournisseurs"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="- Editeurs"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

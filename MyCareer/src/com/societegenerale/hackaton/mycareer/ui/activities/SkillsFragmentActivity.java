@@ -12,6 +12,7 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 
 import com.societegenerale.hackaton.mycareer.R;
+import com.societegenerale.hackaton.mycareer.ui.activities.fragments.SkillsPagesAppIT;
 import com.societegenerale.hackaton.mycareer.ui.activities.fragments.SkillsPagesIT;
 import com.societegenerale.hackaton.mycareer.ui.widget.ZoomOutPageTransformer;
 
@@ -40,7 +41,7 @@ public class SkillsFragmentActivity extends FragmentActivity {
 		
 		// Ajout des Fragments dans la liste
 		fragments.add(Fragment.instantiate(this,SkillsPagesIT.class.getName()));
-		fragments.add(Fragment.instantiate(this,SkillsPagesIT.class.getName()));
+		fragments.add(Fragment.instantiate(this,SkillsPagesAppIT.class.getName()));
 		fragments.add(Fragment.instantiate(this,SkillsPagesIT.class.getName()));
 
 		// Instantiate a ViewPager and a PagerAdapter.

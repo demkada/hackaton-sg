@@ -9,6 +9,10 @@ public class NavDrawerItem {
 	private boolean isCounterVisible = false;
 
 	public NavDrawerItem(){}
+	
+	public NavDrawerItem(String title){
+		this.title = title;
+	}
 
 	public NavDrawerItem(String title, int icon){
 		this.title = title;

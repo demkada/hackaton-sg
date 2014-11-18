@@ -20,13 +20,16 @@
     <!-- Nav Drawer Menu Items -->
     <string-array name="nav_drawer_items">
         <item>Accueil</item>
-        <item>Mon Cursus</item>
-        <item>Mes Compétences</item>
-        <item>Mon Emploi</item>
-        <item>Mon Parcours</item>
-        <item>Mon développement</item>
-        <item>Mon Marché</item>
-        <item>Ma Mobilité</item>        
+        <item>Mon profil</item>
+        <item>Mon parcours</item>
+        <item>Mon marché</item>
+        <item>Ma mobilité</item>
+        <item>Mon coach</item>
+        <item>Mes Progrès</item>
+        
+        
+        
+                
     </string-array>
 
     <!-- Nav Drawer List Item Icons -->

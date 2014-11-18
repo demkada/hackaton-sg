@@ -4,10 +4,394 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <TextView 
-        android:padding="16dp"
-        android:lineSpacingMultiplier="1.2"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/app_name" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ActivitC) C  compC)tences IT" />
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="																" />
+
+            <RadioGroup
+                android:id="@+id/labelSystemRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/label_basique"
+                    style="@color/list_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:clickable="false"
+                    android:text="Basique	" />
+
+                <RadioButton
+                    android:id="@+id/label_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:clickable="false"
+                    android:text="Initiation	" />
+
+                <RadioButton
+                    android:id="@+id/label_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="MaC.tre	" />
+
+                <RadioButton
+                    android:id="@+id/label_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="Expert	" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+        
+        <!-- RadioGroup is used to inter-link Separate Radio Buttons, to restrict a single selection of Radio Button from all -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="011 – Analyse et élaboration de stratégie IT" />
+
+            <RadioGroup
+                android:id="@+id/operatingSystem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+				android:orientation="horizontal"
+				>
+
+                <RadioButton
+                    android:id="@+id/radio_basique"
+                    style="@color/list_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			"
+                    android:textColorHighlight="@color/list_background_pressed" />
+
+                <RadioButton
+                    android:id="@+id/radio_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="				" />
+
+                <RadioButton
+                    android:id="@+id/radio_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/radio_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="014 – Analyse et élaboration d'architecture IT" />
+
+            <RadioGroup
+                android:id="@+id/archi_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+				android:orientation="horizontal"
+				>
+
+                <RadioButton
+                    android:id="@+id/archi_basique"
+                    style="@color/list_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/archi_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="				" />
+
+                <RadioButton
+                    android:id="@+id/archi_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/archi_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="017 - Analyse et élaboration de base de données" />
+
+            <RadioGroup
+                android:id="@+id/dbRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/db_basique"
+                    style="@color/list_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/db_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="				" />
+
+                <RadioButton
+                    android:id="@+id/db_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/db_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+            </RadioGroup>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="020 - Analyse et optimisation de processus Métier" />
+
+            <RadioGroup
+                android:id="@+id/MetierRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/Metier_basique"
+                    style="@color/list_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/Metier_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="				" />
+
+                <RadioButton
+                    android:id="@+id/Metier_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/Metier_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+            </RadioGroup>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="020 - Analyse et optimisation de processus Métier" />
+
+            <RadioGroup
+                android:id="@+id/devRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/dev_basique"
+                    style="@color/list_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/dev_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="				" />
+
+                <RadioButton
+                    android:id="@+id/dev_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/dev_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+            </RadioGroup>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="030 - Programmation et codage d'app IT				" />
+
+            <RadioGroup
+                android:id="@+id/prgRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/prg_basique"
+                    style="@color/list_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/prg_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="				" />
+
+                <RadioButton
+                    android:id="@+id/prg_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/prg_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+            </RadioGroup>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="036 - Elaboration d'infrastructure IT						" />
+
+            <RadioGroup
+                android:id="@+id/infraRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/infra_basique"
+                    style="@color/list_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/infra_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="				" />
+
+                <RadioButton
+                    android:id="@+id/infra_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/infra_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
 </ScrollView>

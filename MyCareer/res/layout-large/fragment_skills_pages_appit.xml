@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/skills_pages_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Domaine d'application de compétences IT" />
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="																" />
+
+            <RadioGroup
+                android:id="@+id/labelSystemRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/label_basique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:clickable="false"
+                    android:text="Basique	" />
+
+                <RadioButton
+                    android:id="@+id/label_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:clickable="false"
+                    android:text="Initiation	" />
+
+                <RadioButton
+                    android:id="@+id/label_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="Maître	" />
+
+                <RadioButton
+                    android:id="@+id/label_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="Expert	" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+        
+        <!-- RadioGroup is used to inter-link Separate Radio Buttons, to restrict a single selection of Radio Button from all -->
+
+       
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="211 – Banque de détail en France						" />
+
+            <RadioGroup
+                android:id="@+id/dbRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/db_basique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/db_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="				" />
+
+                <RadioButton
+                    android:id="@+id/db_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/db_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+            </RadioGroup>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="212 - Banque de détail à l'étranger						" />
+
+            <RadioGroup
+                android:id="@+id/MetierRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/Metier_basique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/Metier_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="				" />
+
+                <RadioButton
+                    android:id="@+id/Metier_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/Metier_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+            </RadioGroup>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="213 - Assurances											" />
+
+            <RadioGroup
+                android:id="@+id/devRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/dev_basique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/dev_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="				" />
+
+                <RadioButton
+                    android:id="@+id/dev_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/dev_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+            </RadioGroup>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="214 - Services financiers aux entreprises				" />
+
+            <RadioGroup
+                android:id="@+id/prgRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/prg_basique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/prg_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="				" />
+
+                <RadioButton
+                    android:id="@+id/prg_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/prg_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+            </RadioGroup>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="215 - Banque de grande clientèle							" />
+
+            <RadioGroup
+                android:id="@+id/infraRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/infra_basique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/infra_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="				" />
+
+                <RadioButton
+                    android:id="@+id/infra_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/infra_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+            </RadioGroup>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="216 - Finances												" />
+
+            <RadioGroup
+                android:id="@+id/finRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/fin_basique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/fin_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="				" />
+
+                <RadioButton
+                    android:id="@+id/fin_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/fin_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+            </RadioGroup>
+
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="217 - Risques												" />
+
+            <RadioGroup
+                android:id="@+id/operatingSystem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+				android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio_basique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/radio_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="				" />
+
+                <RadioButton
+                    android:id="@+id/radio_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/radio_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="220 – Immobilier											" />
+
+            <RadioGroup
+                android:id="@+id/archi_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+				android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/archi_basique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/archi_initiation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="				" />
+
+                <RadioButton
+                    android:id="@+id/archi_maitrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+                <RadioButton
+                    android:id="@+id/archi_Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="			" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+        
+        
+
+    </LinearLayout>
+
+
+</ScrollView>
+

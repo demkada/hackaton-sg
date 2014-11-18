@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:id="@+id/txtLabel"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Mon coach"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ai-je le bon code vestimentaire pour passer un entretien dans cette direction ?"
+        android:id="@+id/textView3"
+        android:layout_marginTop="150dp"
+        android:layout_toStartOf="@+id/txtLabel"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentEnd="true" />
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="C'est decide, je me connecte au prochain forum digital !"
+        android:id="@+id/textView4"
+        android:layout_toStartOf="@+id/txtLabel"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="85dp"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Suis-je reellement en mobilite geographiquement ?"
+        android:id="@+id/textView"
+        android:layout_toStartOf="@+id/txtLabel"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="85dp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Quel est mon niveau d'anglais? Je le fais evaluer et j'en parle a mon conseiller referent."
+        android:id="@+id/textView2"
+        android:layout_marginTop="85dp"
+        android:layout_toStartOf="@+id/txtLabel"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="En savoir plus ..."
+        android:id="@+id/textView5"
+        android:textStyle="italic"
+        android:textColor="#ff0000ff"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_marginRight="192dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="En savoir plus ..."
+        android:id="@+id/textView6"
+        android:textStyle="italic"
+        android:textColor="#ff0000ff"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="En savoir plus ..."
+        android:id="@+id/textView7"
+        android:textStyle="italic"
+        android:textColor="#ff0000ff"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="En savoir plus ..."
+        android:id="@+id/textView8"
+        android:textStyle="italic"
+        android:textColor="#ff0000ff"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView7" />
+
+
+</RelativeLayout>

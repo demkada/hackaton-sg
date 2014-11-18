@@ -14,7 +14,6 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 
 import com.societegenerale.hackaton.mycareer.R;
-import com.societegenerale.hackaton.mycareer.ui.activities.SkillsFragmentActivity;
 import com.societegenerale.hackaton.mycareer.ui.adapter.CustomGridViewAdapter;
 
 public class HomeFragment extends Fragment {
@@ -38,22 +37,21 @@ public class HomeFragment extends Fragment {
 				
 				switch(position) {
 				case 0:
-					fragment = new PhotosFragment();
+					fragment = new ProlfilFragment();
 					break;
 				case 1:
-					SkillsAct = new SkillsFragmentActivity();
+					fragment = new ParcoursFragment();
 					break;
 				case 2:
-					fragment = new CommunityFragment();
+					fragment =  new MarketFragment();
 					break;
 				case 3:
-					fragment = new PagesFragment();
+					fragment = new MobilityFragment();
 					break;
 				case 4:
-					fragment =  new WhatsHotFragment();
+					fragment = new CoachFragment();
 					break;
 				default:
-					fragment = new HomeFragment();
 					break;
 				}
 				if (fragment != null) {
